@@ -35,10 +35,95 @@
       </nav>
     </section>
     <section class="container-fluid"> <!--Home-->
-      <h2 class="text-white text-center">CDisidoro.github.io</h2>
+      <p class="text-white text-center fs-1">CDisidoro</p>
     </section>
-    <footer class="bg-dark text-center text-white"> <!--Footer-->
-      <section class="container p-4">
+    <section class="container-fluid" id="about"> <!--Sobre mi-->
+      <p class="text-white text-center fs-2">About me</p>
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-7">
+            <p class="text-white text-center">
+              I'm Camilo Andres D'isidoro, a 22 years old informatics engineering student at Complutense University of Madrid, Spain, currently finishing my studies.
+              I've always been very passionate about learning about computers, how do they work, how to use and improve the technology they use, and how we as engineers can
+              make new devices and technologies and with them improve the lifestyle of the people. I have skills in Cybersecurity, Web development, Programming, and use of Cloud
+              infrastructure.
+            </p>
+            <p class="text-white text-center">
+              Specifically I have knowledge in Java, C/C++, Python, MongoDB, SQL, HTML5, CSS3, PHP, JS, Spring Boot, WordPress, Git, AWS, Google Cloud, Data Science Technology (Hadoop, Spark, MapReduce),
+              Pentesting Tools (Kali Linux, Metasploit, Wireshark, Nmap, etc.).
+            </p>
+            <p class="text-white text-center">
+              Currently I'm looking for a internship on Madrid compatible with my studies from February 2023.
+            </p>
+          </div>
+          <div class="col mx-5">
+            <img src="src/me.jpg" style="width: 275px; height: 275px;" class="img-thumbnail rounded-circle" alt="Photo of myself">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid" id="education"> <!--Cosas educativas-->
+      <p class="text-white text-center fs-2">My Education</p>
+      <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active mx-auto">
+            <div class="row">
+              <div class="col text-white text-center mx-5 px-5">
+                <p class="fs-3">Complutense University of Madrid (UCM)</p>
+                <p>Informatics Engineering Degree (2019 - Today)</p>
+                <p>Acquired knowledge in Java, C/C++, Python, MongoDB, SQL, Spring Boot, HTML5, CSS3, PHP, JS, WordPress, Git, AWS, Google Cloud, Vivado, Data Science and Cybersecurity</p>
+              </div>
+              <div class="col">
+                <img src="src/ucm.jpg" class="d-block rounded" style="width: 300px; height: 300px;" alt="Complutense University of Madrid Logo">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col text-white text-center mx-5 px-5">
+                <p class="fs-3">Google Activate</p>
+                <p>Web Development Introduction I (April 2020), Mobile App Development (May 2020)</p>
+                <p>Acquired knowledge in Web history, working of the web, how is written and published a web site; history of mobile devices, app design and development in Android and iOS,
+                  multiplatform development.
+                </p>
+              </div>
+              <div class="col">
+                <img src="src/googleLearning.jpg" class="d-block rounded" style="width: 300px; height: 300px;" alt="Google Activate Logo">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col text-white text-center mx-5 px-5">
+                <p class="fs-3">Cundinamarca University</p>
+                <p>Informatics Engineering Degree (2016 - 2018)</p>
+                <p>Studies not completed and approved at UCM</p>
+                <p>Acquired knowledge in Java, C++, SQL, PHP, HTML5, CSS3, Arduino</p>
+              </div>
+              <div class="col">
+                <img src="src/udec.jpg" class="d-block rounded" style="width: 300px; height: 300px;" alt="Cundinamarca University Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="container-fluid" id="projects"> <!--Proyectos-->
+      <p class="text-white text-center fs-2">Projects I've been working on</p>
+    </section>
+    <section class="container-fluid" id="contact"> <!--Contacto-->
+      <p class="text-white text-center fs-2">How to reach me</p>
+    </section>
+    <footer class="bg-dark text-white"> <!--Footer-->
+      <section class="container text-center p-4">
         <section class="mb-4"> <!--Social Media-->
           <!-- Github -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/CDisidoro" target="_blank" role="button">
@@ -66,8 +151,8 @@
           </a>
         </section>
       </section>
-      <section class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright: Camilo Andres D'isidoro
+      <section style="background-color: rgba(0, 0, 0, 0.2);">
+        <p class="p-3">© 2022 Copyright: Camilo Andres D'isidoro</p>
       </section>
       <!-- Copyright -->
     </footer>
