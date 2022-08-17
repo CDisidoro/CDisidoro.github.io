@@ -8,16 +8,13 @@
   </head>
   <body class="bg-dark">
     <section class="container-fluid"> <!--Navbar-->
-      <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top mx-5">
         <a href="#" class="navbar-brand">CDisidoro</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <section class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a href="#" class="nav-link active" aria-current="page">Home</a>
-            </li>
             <li class="nav-item">
               <a href="#about" class="nav-link">About Me</a>
             </li>
@@ -35,9 +32,14 @@
       </nav>
     </section>
     <section class="container-fluid"> <!--Home-->
-      <p class="text-white text-center fs-1">CDisidoro</p>
+      <br><br>
+      <p class="text-white text-center fs-1">My Portfolio</p>
+      <p class="text-white text-center fs-5">Informatics Engineer, Programmer, Web Developer, Offensive Security Enthusiast</p>
+      <p class="text-white text-center fs-5">Finishing an Informatics Engineering Carreer at UCM</p>
+      <p class="text-white text-center fs-5">If you want to know more about me, just keep scrolling</p>
     </section>
     <section class="container-fluid" id="about"> <!--Sobre mi-->
+      <br><br>
       <p class="text-white text-center fs-2">About me</p>
       <div class="container px-5">
         <div class="row">
@@ -63,67 +65,333 @@
       </div>
     </section>
     <section class="container-fluid" id="education"> <!--Cosas educativas-->
+      <br><br>
       <p class="text-white text-center fs-2">My Education</p>
-      <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="eduCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active mx-auto">
+          <div class="carousel-item active mx-auto"> <!--UCM-->
             <div class="row">
-              <div class="col text-white text-center mx-5 px-5">
+              <div class="col text-white text-center" style="padding-left: 200px; padding-top: 50px;">
                 <p class="fs-3">Complutense University of Madrid (UCM)</p>
                 <p>Informatics Engineering Degree (2019 - Today)</p>
                 <p>Acquired knowledge in Java, C/C++, Python, MongoDB, SQL, Spring Boot, HTML5, CSS3, PHP, JS, WordPress, Git, AWS, Google Cloud, Vivado, Data Science and Cybersecurity</p>
+                <p>Participated on student associations: LAG (Videogames Association), ASCII (Roleplay and Videogames Association), and FDIST (Cybersecurity Association)</p>
               </div>
-              <div class="col">
+              <div class="col" style="margin-left: 100px;">
                 <img src="src/ucm.jpg" class="d-block rounded" style="width: 300px; height: 300px;" alt="Complutense University of Madrid Logo">
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item"> <!--Google-->
             <div class="row">
-              <div class="col text-white text-center mx-5 px-5">
+              <div class="col text-white text-center" style="padding-left: 200px; padding-top: 50px;">
                 <p class="fs-3">Google Activate</p>
                 <p>Web Development Introduction I (April 2020), Mobile App Development (May 2020)</p>
                 <p>Acquired knowledge in Web history, working of the web, how is written and published a web site; history of mobile devices, app design and development in Android and iOS,
                   multiplatform development.
                 </p>
               </div>
-              <div class="col">
+              <div class="col" style="margin-left: 100px;">
                 <img src="src/googleLearning.jpg" class="d-block rounded" style="width: 300px; height: 300px;" alt="Google Activate Logo">
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item"> <!--UDEC-->
             <div class="row">
-              <div class="col text-white text-center mx-5 px-5">
-                <p class="fs-3">Cundinamarca University</p>
+              <div class="col text-white text-center" style="padding-left: 200px; padding-top: 50px;">
+                <p class="fs-3">Cundinamarca University (UDEC)</p>
                 <p>Informatics Engineering Degree (2016 - 2018)</p>
                 <p>Studies not completed and approved at UCM</p>
                 <p>Acquired knowledge in Java, C++, SQL, PHP, HTML5, CSS3, Arduino</p>
               </div>
-              <div class="col">
+              <div class="col" style="margin-left: 100px;">
                 <img src="src/udec.jpg" class="d-block rounded" style="width: 300px; height: 300px;" alt="Cundinamarca University Logo">
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#eduCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#eduCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
     <section class="container-fluid" id="projects"> <!--Proyectos-->
-      <p class="text-white text-center fs-2">Projects I've been working on</p>
+      <br><br>
+      <p class="text-white text-center fs-2">Projects I've worked on</p>
+      <article class="container-fluid"> <!--Eat Away-->
+        <p class="text-white text-center fs-3 my-3">Eat Away (UCM 2022)</p>
+        <div id="eatawayCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/Projects/EatAway/Home.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Homepage">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/PedidosCliente.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Customer Orders List">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/PerfilUsuario.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away User Profile">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/VistaAdmin1.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Admin Hub 1">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/VistaAdmin2.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Admin Hub 2">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/VistaPlato.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Dish Preview">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/VistaRepartidor.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Delivery Man Hub">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/EatAway/VistaRestaurante.PNG" class="d-block mx-auto" style="width: 75%;" alt="Eat Away Restaurant Menu">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#eatawayCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#eatawayCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p class="text-white text-start my-3 mx-auto">
+          This is a fast food delivery webapp like Ubereats or Glovo, where the customer can register, and make a order to a restaurant,
+          and receive it in their house. It has custom access to the delivery man, the restaurant owner and the system administrator. The delivery man can see the
+          available orders to pickup and deliver them to the customer address, which it can be shown in a map using the Google Maps API. The restaurant owner account will receive
+          the orders made to their restaurant and manage them until they're ready for pickup; they also can register a new restaurant, register new dishes and extras to them, and manage 
+          the restaurants they own. The system administrator can manage all the restaurants in the Web App regardless if they own the restaurant or not. They also can remove the profile photo 
+          of the users in case they're inappropiate, and even block or unblock users from the page.
+        </p>
+        <p class="text-white text-start mx-auto">In this project also have participated:</p>
+        <ul class="text-white">
+          <li>María de Lluc Bonet Segui</li>
+          <li>Álvaro Plaza Sanz</li>
+          <li>Víctor Moreno Perez</li>
+          <li>Carmen Gloria Jaen Campos</li>
+          <li>Manuel Freire Morán (Teacher in charge of supervising the project)</li>
+        </ul>
+        <a href="https://github.com/CDisidoro/EatAway" type="button" class="btn btn-light" target="_blank">GitHub Repository</a>
+      </article>
+      <article class="container-fluid"> <!--Gamers Den-->
+        <p class="text-white text-center fs-3 my-3">Gamers Den (UCM 2022)</p>
+        <div id="gamersdenCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/Projects/GamersDen/Home.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Homepage">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Perfil.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Profile">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Tienda.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Shop">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/VentaJuego.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Videogame Selling">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/CreaJuego.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Videogame Registration">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/CreaNoticia.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den News Registration">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Chat.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Chat">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Foros1.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Forum Hub">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Foros2.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Forum Thread">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Juegos.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Videogame List">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Juegos2.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den Videogame Details">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Noticias1.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den News List">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/GamersDen/Noticias2.PNG" class="d-block mx-auto" style="width: 75%;" alt="Gamers Den News Detailed">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#gamersdenCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#gamersdenCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p class="text-white text-start my-3 mx-auto">
+          This is a web app for gamers, where they can read the latest news on the gaming industry, discuss on a forum with other users, make friends and chat with them, look at the 
+          upcoming events on a calendar, sell their used games on the site and look for new games on the videogames catalogue. This project was made using HTML5, CSS3, PHP, Bootstrap 5.1,
+          mySQL, FullCalendar, and deployed with a UCM private container
+        </p>
+        <p class="text-white text-start mx-auto">In this project also have participated:</p>
+        <ul class="text-white">
+          <li>David Cruza Sesmero</li>
+          <li>Arturo López Fernández</li>
+          <li>Luis Manuel Perez Cuadrado</li>
+          <li>Jesús Abajo Magro</li>
+          <li>Antonio Bonillo Sainz</li>
+          <li>Iván Martínez Ortiz (Teacher in charge of supervising the project)</li>
+        </ul>
+        <a href="https://github.com/CDisidoro/Gamers-Den" type="button" class="btn btn-light" target="_blank">GitHub Repository</a>
+      </article>
+      <article class="container-fluid"> <!--YT Analytics-->
+        <p class="text-white text-center fs-3 my-3">YouTube Analytics (UCM 2021)</p>
+        <div id="ytAnalyticsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/Projects/YT Analytics/Longitud titulo.PNG" class="d-block mx-auto" style="width: 1100px; height: 600px;" alt="YouTube Analytics Title Length">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/YT Analytics/Relacion Vistas-Likes.PNG" class="d-block mx-auto" style="width: 1100px; height: 600px;" alt="YouTube Analytics Views-Likes Ratio">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/YT Analytics/Top Gustados.PNG" class="d-block mx-auto" style="width: 1100px; height: 600px;" alt="YouTube Analytics Top Most Likes">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/YT Analytics/Top Vistos.PNG" class="d-block mx-auto" style="width: 1100px; height: 600px;" alt="YouTube Analytics Top Most Views">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/YT Analytics/Visualizaciones por categoria.PNG" class="d-block mx-auto" style="width: 1100px; height: 600px;" alt="YouTube Analytics Views per Category Trending">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#ytAnalyticsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#ytAnalyticsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p class="text-white text-start my-3 mx-auto">
+          This is a data science project that studies various trendings on YouTube, using a dataset of videos uploaded on the last year with data like Title, Views, Likes, Dislikes, Upload Date,
+          Upload Country, etc. The big data processing was developed with Python and executed with the help of Google Cloud infrastructure
+        </p>
+        <p class="text-white text-start mx-auto">In this project also have participated:</p>
+        <ul class="text-white">
+          <li>María de Lluc Bonet Segui</li>
+          <li>Álvaro Plaza Sanz</li>
+          <li>Marcos Matute</li>
+          <li>Sergio Crespillo</li>
+          <li>Eduardo Huedo Cuesta (Teacher in charge of supervising the project)</li>
+        </ul>
+        <a href="https://github.com/CDisidoro/Youtube-Trending-Videos-Analysis" type="button" class="btn btn-light" target="_blank">GitHub Repository</a>
+        <a href="https://big-data-analytics-ucm.github.io/Youtube-Trending-Videos-Analysis/" type="button" class="btn btn-light" target="_blank">Project Website</a>
+      </article>
+      <article class="container-fluid"> <!--Physics Sim-->
+        <p class="text-white text-center fs-3 my-3">Physics Simulator (UCM 2021)</p>
+        <div id="physicsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/Projects/PhysicsSimulator/Arranque.PNG" class="d-block mx-auto" style="width: 75%" alt="Physics Simulator Start">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/PhysicsSimulator/CargaFichero.PNG" class="d-block mx-auto" style="width: 75%" alt="Physics Simulator File Loading">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/PhysicsSimulator/CambioLeyFuerza.PNG" class="d-block mx-auto" style="width: 75%" alt="Physics Simulator Force Law Change">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/PhysicsSimulator/EnEjecucion.PNG" class="d-block mx-auto" style="width: 75%" alt="Physics Simulator Running">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#physicsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#physicsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p class="text-white text-start my-3 mx-auto">
+          This is a physic law simulator for bodies floating in space. It counts with a CLI mode and with a GUI mode using Swing and threads to optimize its performance.
+          The simulator counts with 3 Physic Laws, with the capability of adding more if necessary: Newton Universal Gravitation Law, Fixed Point Law and No Force Law; and 2
+          types of bodies with the capability of add more: Basic Body and Mass Losing Body. This project makes use of factories to create the necessary object instances using a generic interface 
+          and an abstract class. For its working the simulator requires to load a JSON file with all the bodies used in the simulation and specify a physic law to use (If not specified, it will work with Newton),
+          a time interval between each simulation step, an amount of steps to simulate, and optionally in CLI mode, an output JSON file and another input JSON file to check if the simulation was done correctly (
+          Due to the differences produces working with double type variables, the output file will always be different to the expected output for a very small difference)
+        </p>
+        <p class="text-white text-start mx-auto">In this project also have participated:</p>
+        <ul class="text-white">
+          <li>José Ignacio Barrios Oros</li>
+          <li>Ana María González de Miguel (Teacher in charge of supervising the project)</li>
+        </ul>
+        <a href="https://github.com/CDisidoro/Practica-TP2" type="button" class="btn btn-light" target="_blank">GitHub Repository</a>
+        <p class="text-white text-center fs-4 my-3">Working on Video</p>
+        <div id="physicsVideoCarousel" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <video src="src/Projects/PhysicsSimulator/Newton.mkv" class="d-block mx-auto" controls width="75%"></video>
+            </div>
+            <div class="carousel-item">
+              <video src="src/Projects/PhysicsSimulator/PuntoFijo.mkv" class="d-block mx-auto" controls width="75%"></video>
+            </div>
+            <div class="carousel-item">
+              <video src="src/Projects/PhysicsSimulator/NoForce.mkv" class="d-block mx-auto" controls width="75%"></video>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#physicsVideoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#physicsVideoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </article>
+      <article class="container-fluid"> <!--Operations DC-->
+        <p class="text-white text-center fs-3 my-3">Operations DC (UDEC 2018)</p>
+        <div id="opdcCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/Projects/OperationsDC/Home.PNG" class="d-block mx-auto" style="width: 75%" alt="POperations DC Home">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/OperationsDC/Colaboradores.PNG" class="d-block mx-auto" style="width: 75%" alt="POperations DC Developers">
+            </div>
+            <div class="carousel-item">
+              <img src="src/Projects/OperationsDC/Contacto.PNG" class="d-block mx-auto" style="width: 75%" alt="POperations DC Contact">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#opdcCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#opdcCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p class="text-white text-start my-3 mx-auto">
+          This is web page made with the intention of explain a educative videogame for children based on trivia, also including a biography of the developers of the project
+        </p>
+        <p class="text-white text-start mx-auto">In this project also have participated:</p>
+        <ul class="text-white">
+          <li>Dairo Estiben Beltrán</li>
+          <li>Alex Niño (Teacher in charge of supervising the project)</li>
+        </ul>
+        <a href="https://github.com/CDisidoro/PROYECTO-ARQUITECTURA" type="button" class="btn btn-light" target="_blank">GitHub Repository</a>
+      </article>
     </section>
     <section class="container-fluid" id="contact"> <!--Contacto-->
       <p class="text-white text-center fs-2">How to reach me</p>
-    </section>
-    <footer class="bg-dark text-white"> <!--Footer-->
-      <section class="container text-center p-4">
+      <section class="container text-center">
         <section class="mb-4"> <!--Social Media-->
           <!-- Github -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/CDisidoro" target="_blank" role="button">
@@ -151,10 +419,10 @@
           </a>
         </section>
       </section>
-      <section style="background-color: rgba(0, 0, 0, 0.2);">
-        <p class="p-3">© 2022 Copyright: Camilo Andres D'isidoro</p>
-      </section>
+    </section>
+    <footer class="text-white" style="background-color: rgba(0, 0, 0, 0.2);"> <!--Footer-->
       <!-- Copyright -->
+      <p class="p-3">© 2022 Copyright: Camilo Andres D'isidoro</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

@@ -1,2 +1,4 @@
 # CDisidoro.github.io
-Página web de la cuenta
+Hi, I'm Camilo Andres D'isidoro, a 22 years old informatics engineering student at Complutense University of Madrid, Spain, currently finishing my studies. I've always been very passionate about learning about computers, how do they work, how to use and improve the technology they use, and how we as engineers can make new devices and technologies and with them improve the lifestyle of the people. I have skills in Cybersecurity, Web development, Programming, and use of Cloud infrastructure.
+
+Specifically I have knowledge in Java, C/C++, Python, MongoDB, SQL, HTML5, CSS3, PHP, JS, Spring Boot, WordPress, Git, AWS, Google Cloud, Data Science Technology (Hadoop, Spark, MapReduce), Pentesting Tools (Kali Linux, Metasploit, Wireshark, Nmap, etc.).
